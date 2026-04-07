@@ -260,7 +260,7 @@ font-family: 'Montserrat', sans-serif;
 
 @media only screen and (max-width:767px) {
     .home-content {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -275,18 +275,28 @@ font-family: 'Montserrat', sans-serif;
     font-size: 54.4px; /* // 3.4 rem */
 }
 
-@media only screen and (max-width:767px) {
+@media (min-width:480px) and (max-width:767px) {
     .home-content .title {
         font-size: 36px;
     }
 }
 
+@media (max-width:480px) {
+    .home-content .title {
+        font-size: 30px;
+    }
+}
 
 .home-desc {
     color: rgba(255, 255, 255 , 0.8);
     line-height: 1.6;
 }
 
+@media (max-width:480px) {
+    .home-desc {
+        font-size: 14px;
+    }
+}
 
 
 .home .btn {
