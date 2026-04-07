@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tags -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>HTML CSS Template 1</title>
+    <!-- Css files -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base-refactor.css">
+    <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+    <body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+            <!-- Header -->
+            <div class="logo"> <!-- float-left -->
+                <a href="index.html" class="link-logo">
+                <!-- <img src="./images/logo/logo-alt.png" alt="Logo Image" draggable="false"> -->
+                <img src="./images/logo/logo.png" alt="Logo Image" draggable="false">
+                </a><!-- ./link-logo -->
+            </div><!-- ./logo -->
+
+            <ul class="nav">
+                <li><a href="#" class="active ds-block">Home</a></li>
+                <li><a href="#about" class="ds-block">About</a></li>
+                <li><a href="#portfolio" class="ds-block">Portfolio</a></li>
+                <li><a href="#services" class="ds-block">Services</a></li>
+                <li><a href="#price" class="ds-block">Prices</a></li>
+                <li><a href="#team" class="ds-block">Team</a></li>
+                <li class="dropdown">
+                    <a href="#blog" class="ds-block">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./blog.html" class="blog-post">blog post</a></li>
+                    </ul><!-- ./dropdown-menu -->
+                </li><!--./ds-inline-block ./dropdown -->
+                <li class="ds-inline-block"><a href="#contact" class="ds-block">Contact</a></li>
+            </ul><!-- ./nav -->
+
+            <div class="hover-nav">
+                <div class="responsive-nav" media="max-width:767px;">
+                    <span></span>
+                </div><!-- ./responsive-nav -->
+                
+                <ul class="responsive-ul">
+                <li><a href="#" class="ds-block">Home</a></li>
+                <li><a href="#about" class="ds-block">About</a></li>
+                <li><a href="#portfolio" class="ds-block">Portfolio</a></li>
+                <li><a href="#services" class="ds-block">Services</a></li>
+                <li><a href="#price" class="ds-block">Prices</a></li>
+                <li><a href="#team" class="ds-block">Team</a></li>
+                
+                    <li class="has-dropdown">
+                        <a href="#blog" class=" active ds-block">Blog</a>
+                        <ul class="dropdown">
+                            <li><a href="./blog.html" class="blog-post ds-block">blog post</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="#contact" class="ds-block">Contact</a></li>
+                </ul><!-- ./responsive-ul -->
+
+        </div><!-- ./hover-nav -->
+
+        </div><!-- ./header-content -->
+        </div> <!-- ./container -->
+    </div><!-- ./header -->
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+        <div class="overlay"></div><!-- ./overlay -->
+            <div class="home-content text-C">
+                <h1 class="title upper">we are creative agency</h1>
+                <p class="home-desc">
+                    Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+                </p>
+                <button class="btn btn-start hover-opacity">Get Started!</button>
+                <button class="btn btn-learn hover-opacity">Learn more</button>
+            </div><!-- ./home-content -->
+    </div><!-- ./home -->
+
+
+
+    <!-- About -->
+    <div class="about pd-y" id="about">
+        <!-- Section header -->
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">welcome to website</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+
+        <div class="container">
+            <div class="about-content">
+                <div class="about-item ltr-effect text-C">
+                    <i class="icon fa fa-cogs mg-b-20"></i>
+                    <h3 class="about-item-title capital">fully customizible</h3>
+                    <p class="about-item-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+                    <a href="#" class="about-item-link">Read more</a>
+                </div><!-- ./about-item -->
+
+                <div class="about-item ltr-effect text-C">
+                    <i class="icon fa fa-magic mg-b-20"></i>
+                    <h3 class="about-item-title capital">awesome features</h3>
+                    <p class="about-item-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+                    <a href="#" class="about-item-link">Read more</a>
+                </div><!-- ./about-item -->
+
+                <div class="about-item ltr-effect text-C">
+                    <i class="icon fa fa-mobile mg-b-20"></i>
+                    <h3 class="about-item-title capital">fully responsive</h3>
+                    <p class="about-item-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+                    <a href="#" class="about-item-link">Read more</a>
+                </div><!-- ./about-item -->
+
+            </div><!-- ./about-content -->
+        </div><!-- ./container -->
+
+    </div><!-- ./about ./pd-y -->
+
+
+    <!-- Portfolio -->
+    <div class="portfolio pd-y bg-fa" id="portfolio">
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">featured works</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+        
+        <div class="container">
+            <div class="portfolio-content overflow-hidden">
+                <div class="portfolio-item float-left">
+                    <img src="./images/work/work1.jpg" alt="portfolio photos">
+                    <div class="layer-content">
+                        <div class="layer-info text-C">
+                            <span class="category ds-block upper">category</span>
+                            <h3 class="layer-content-title capital">lorem ipsum dolor</h3>
+                            <div class="layer-content-link">
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-external-link"></i></a>
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-search"></i></a>
+                            </div><!-- ./layer-content-link -->
+                        </div><!-- ./layer-info -->
+                    </div><!-- ./layer-content -->
+                </div><!-- ./portfolio-item -->
+
+                <div class="portfolio-item float-left">
+
+                    <img src="./images/work/work2.jpg" alt="portfolio photos">
+
+                    <div class="layer-content">
+                        <div class="layer-info text-C">
+                            <span class="category ds-block upper">category</span>
+                            <h3 class="layer-content-title capital">lorem ipsum dolor</h3>
+                            <div class="layer-content-link">
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-external-link"></i></a>
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-search"></i></a>
+                            </div><!-- ./layer-content-link -->
+                        </div><!-- ./layer-info -->
+                    </div><!-- ./layer-content -->
+
+                </div><!-- ./portfolio-item -->
+
+                <div class="portfolio-item float-left">
+
+                    <img src="./images/work/work3.jpg" alt="portfolio photos">
+
+                    <div class="layer-content">
+                        <div class="layer-info text-C">
+                            <span class="category ds-block upper">category</span>
+                            <h3 class="layer-content-title capital">lorem ipsum dolor</h3>
+                            <div class="layer-content-link">
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-external-link"></i></a>
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-search"></i></a>
+                            </div><!-- ./layer-content-link -->
+                        </div><!-- ./layer-info -->
+
+                    </div><!-- ./layer-content -->
+
+                </div><!-- ./portfolio-item -->
+
+                <div class="portfolio-item float-left">
+
+                    <img src="./images/work/work4.jpg" alt="portfolio photos">
+
+                    <div class="layer-content">
+                        <div class="layer-info text-C">
+                            <span class="category ds-block upper">category</span>
+                            <h3 class="layer-content-title capital">lorem ipsum dolor</h3>
+                            <div class="layer-content-link">
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-external-link"></i></a>
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-search"></i></a>
+                            </div><!-- ./layer-content-link -->
+                        </div><!-- ./layer-info -->
+                    </div><!-- ./layer-content -->
+
+                </div><!-- ./portfolio-item -->
+
+                <div class="portfolio-item float-left">
+
+                    <img src="./images/work/work5.jpg" alt="portfolio photos">
+
+                    <div class="layer-content">
+                        <div class="layer-info text-C">
+                            <span class="category ds-block upper">category</span>
+                            <h3 class="layer-content-title capital">lorem ipsum dolor</h3>
+                            <div class="layer-content-link">
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-external-link"></i></a>
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-search"></i></a>
+                            </div><!-- ./layer-content-link -->
+                        </div><!-- ./layer-info -->
+                    </div><!-- ./layer-content -->
+
+                </div><!-- ./portfolio-item -->
+
+                <div class="portfolio-item float-left">
+
+                    <img src="./images/work/work6.jpg" alt="portfolio photos">
+
+                    <div class="layer-content">
+                        <div class="layer-info text-C">
+                            <span class="category ds-block upper">category</span>
+                            <h3 class="layer-content-title capital">lorem ipsum dolor</h3>
+                            <div class="layer-content-link">
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-external-link"></i></a>
+                                <a href="#" class="ds-inline-block icon-link hover-opacity"><i class="icon fa fa-search"></i></a>
+                            </div><!-- ./layer-content-link -->
+                        </div><!-- ./layer-info -->
+                    </div><!-- ./layer-content -->
+
+                </div><!-- ./portfolio-item -->
+            </div><!-- ./portfolio-content -->
+        </div><!-- container -->
+    </div><!-- ./portfolio -->
+
+    <!-- Services -->
+    <div class="services pd-y" id="services">
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">what we offer</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+
+        <div class="container">
+            <div class="services-content overflow-hidden">
+
+                <div class="services-item float-left ltr-effect">
+                    <i class="icon fa fa-diamond"></i>
+                    <h3 class="services-content-title capital mg-b-20">app development</h3>
+                    <p class="services-content-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero</p>
+                </div><!-- ./services-item -->
+
+                <div class="services-item float-left mg ltr-effect">
+                    <i class="icon fa fa-rocket"></i>
+                    <h3 class="services-content-title capital mg-b-20">graphic design</h3>
+                    <p class="services-content-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero</p>
+                </div><!-- ./services-item -->
+
+                <div class="services-item float-left ltr-effect">
+                    <i class="icon fa fa-cogs"></i>
+                    <h3 class="services-content-title capital mg-b-20">creative idea</h3>
+                    <p class="services-content-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero</p>
+                </div><!-- ./services-item -->
+
+                <div class="services-item float-left ltr-effect">
+                    <i class="icon fa fa-diamond"></i>
+                    <h3 class="services-content-title capital mg-b-20">marketing</h3>
+                    <p class="services-content-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero</p>
+                </div><!-- ./services-item -->
+
+                <div class="services-item float-left mg ltr-effect">
+                    <i class="icon fa fa-pencil"></i>
+                    <h3 class="services-content-title capital mg-b-20">awesome support</h3>
+                    <p class="services-content-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero</p>
+                </div><!-- ./services-item -->
+
+                <div class="services-item float-left ltr-effect">
+                    <i class="icon fa fa-flask"></i>
+                    <h3 class="services-content-title capital mg-b-20">brand design</h3>
+                    <p class="services-content-desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero</p>
+                </div><!-- ./services-item -->
+
+            </div><!-- ./services-content -->
+        </div><!-- ./container -->
+    </div><!-- ./services -->
+
+
+    <!-- Choose -->
+    <div class="choose bg-fa">
+        <div class="container">
+            <div class="choose-display">
+                <div class="choose-item">
+                    <div class="choose-section-header">
+                        <h2 class="choose-section-title capital mg-b-14">why choose us</h2><!-- ./choose-section-title -->
+                        <span class="choose-line ds-block"></span><!-- ./choose-line -->
+                    </div><!-- ./choose-section-header  -->
+
+                    <div class="choose-content">
+                        <p class="choose-content-desc mg-b-14">
+                            Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
+                        </p><!-- ./choose-content-desc -->
+
+                        <div class="feature">
+                            <i class="icon fa fa-check float-left"></i>
+                            <p class="feature-desc mg-b-14">Quis varius quam quisque id diam vel quam elementum</p><!-- feature-desc -->
+                        </div><!-- ./feature -->
+                        
+                        <div class="feature">
+                            <i class="icon fa fa-check float-left"></i>
+                            <p class="feature-desc mg-b-14">Mauris augue neque gravida in fermentum.</p><!-- feature-desc -->
+                        </div><!-- ./feature -->
+                        
+                        <div class="feature">
+                            <i class="icon fa fa-check float-left"></i>
+                            <p class="feature-desc mg-b-14">Orci phasellus egestas tellus rutrum.</p><!-- feature-desc -->
+                        </div><!-- ./feature -->
+                        
+                        <div class="feature">
+                            <i class="icon fa fa-check float-left"></i>
+                            <p class="feature-desc mg-b-14">Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p><!-- feature-desc -->
+                        </div><!-- ./feature -->
+
+                    </div><!-- ./choose-content -->
+                </div><!-- ./choose-item -->
+                <div class="choose-item">
+                    <div class="choose-item-img">
+                        <img src="./images/about/about2.jpg" alt="photo of slider">
+                    </div><!-- ./choose-item-img -->
+                </div><!-- ./choose-item -->
+
+            </div><!-- ./choose-display -->
+            </div><!-- ./container -->
+    </div><!-- ./choose -->
+
+            <!-- number section -->
+            <div class="number">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="number-items overflow-hidden">
+                            <div class="number-item text-C float-left">
+                                <i class="icon fa fa-users mg-b-20"></i>
+                                <h3 class="number-title">451</h3>
+                                <span class="white-text">happy clients</span>
+                            </div><!-- ./number-item -->
+
+                            <div class="number-item text-C float-left">
+                                <i class="icon fa fa-trophy mg-b-20"></i>
+                                <h3 class="number-title">12</h3>
+                                <span class="white-text">awards won</span>
+                            </div><!-- ./number-item -->
+
+                            <div class="number-item text-C float-left">
+                                <i class="icon fa fa-coffee mg-b-20"></i>
+                                <h3 class="number-title">154K</h3>
+                                <span class="white-text">cups of coffee</span>
+                            </div><!-- ./number-item -->
+
+                            <div class="number-item text-C float-left">
+                                <i class="icon fa fa-file mg-b-20"></i>
+                                <h3 class="number-title">45</h3>
+                                <span class="white-text">projects completed</span>
+                            </div><!-- ./number-item -->
+
+                        </div><!-- ./number-items -->
+                    </div><!-- ./container -->
+                </div><!-- ./overlay -->
+            </div><!-- ./number -->
+
+    <!-- Prices Section -->
+    <div class="pricing pd-y" id="price">
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">pricing table</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+
+        <div class="container">
+            <div class="prices-items overflow-hidden">
+                <div class="price-item float-left ttb-effect">
+                    <span class="price-item-title ds-block upper text-C">basic plan</span>
+                    <div class="price-circle">
+                        <h3 class="price-value">$9</h3>
+                        <span class="price-period upper">/month</span>
+                    </div><!-- ./price-circle -->
+                    <ul class="prices-adv text-C">
+                        <li class="price-adv">1GB Disk Space</li>
+                        <li class="price-adv">100 Email Account</li>
+                        <li class="price-adv">24/24 Support</li>
+                    </ul><!-- ./prices-adv -->
+                    <div class="purchase text-C">
+                        <button class="btn-purchase ds-inline-block capital">purchase now</button>
+                    </div><!-- ./purchase -->
+                </div><!-- ./price-item -->
+                
+                <div class="price-item float-left mg ttb-effect">
+                    <span class="price-item-title ds-block upper text-C">silver plan</span>
+                    <div class="price-circle">
+                        <h3 class="price-value">$19</h3>
+                        <span class="price-period upper">/month</span>
+                    </div><!-- ./price-circle -->
+                    <ul class="prices-adv text-C">
+                        <li class="price-adv">1GB Disk Space</li>
+                        <li class="price-adv">100 Email Account</li>
+                        <li class="price-adv">24/24 Support</li>
+                    </ul><!-- ./prices-adv -->
+                    <div class="purchase text-C">
+                        <button class="btn-purchase ds-inline-block capital">purchase now</button>
+                    </div><!-- ./purchase -->
+                </div><!-- ./price-item -->
+                
+                <div class="price-item float-left ttb-effect">
+                    <span class="price-item-title ds-block upper text-C">gold plan</span>
+                    <div class="price-circle">
+                        <h3 class="price-value">$39</h3>
+                        <span class="price-period upper">/month</span>
+                    </div><!-- ./price-circle -->
+                    <ul class="prices-adv text-C">
+                        <li class="price-adv">1GB Disk Space</li>
+                        <li class="price-adv">100 Email Account</li>
+                        <li class="price-adv">24/24 Support</li>
+                    </ul><!-- ./prices-adv -->
+                    <div class="purchase text-C">
+                        <button class="btn-purchase ds-inline-block capital">purchase now</button>
+                    </div><!-- ./purchase -->
+                </div><!-- ./price-item -->
+
+            </div><!-- ./prices-item -->
+        </div><!-- ./container -->
+    </div><!-- ./pricing -->
+
+
+    <!-- info part -->
+    <div class="info">
+        <div class="overlay">
+            <div class="container">
+                <div class="person-slider">                    
+                    <input type="radio" name="slide" id="s1" checked>
+                    <input type="radio" name="slide" id="s2">
+                    <input type="radio" name="slide" id="s3">
+                        
+                        <div class="personal-info">
+                            <div class="person-part">
+                                <img class="person-part-image" src="./images/person/perso1.jpg" alt="person">
+                                <div class="person-head ds-inline-block">
+                                    <h3 class="person-part-name capital mg-b-5">john doe</h3>
+                                    <span class="person-part-title upper">web designer</span>
+                                </div><!-- ./person-head -->
+                                <p class="person-part-desc">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                            </div><!-- ./person-part -->
+                            <div class="person-part">
+                                <img class="person-part-image" src="./images/person/perso2.jpg" alt="person">
+                                <div class="person-head ds-inline-block">
+                                    <h3 class="person-part-name capital mg-b-5">john doe</h3>
+                                    <span class="person-part-title upper">web designer</span>
+                                </div><!-- ./person-head -->
+                                <p class="person-part-desc">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                            </div><!-- ./person-part -->
+                            <div class="person-part">
+                                <img class="person-part-image" src="./images/person/perso1.jpg" alt="person">
+                                <div class="person-head ds-inline-block">
+                                    <h3 class="person-part-name capital mg-b-5">john doe</h3>
+                                    <span class="person-part-title upper">web designer</span>
+                                </div><!-- ./person-head -->
+                                <p class="person-part-desc">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                            </div><!-- ./person-part -->
+                            <div class="person-part">
+                                <img class="person-part-image" src="./images/person/perso2.jpg" alt="person">
+                                <div class="person-head ds-inline-block">
+                                    <h3 class="person-part-name capital mg-b-5">john doe</h3>
+                                    <span class="person-part-title upper">web designer</span>
+                                </div><!-- ./person-head -->
+                                <p class="person-part-desc">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                            </div><!-- ./person-part -->
+                        </div><!-- ./personal-info -->
+
+                        <div class="person-slide-nav">
+                            <label for="s1"></label>
+                            <label for="s2"></label>
+                            <label for="s3"></label>
+                        </div><!-- ./person-slide-nav -->
+                    </div><!-- ./person-slider -->
+                
+
+            </div><!-- ./container -->
+        </div><!-- ./overlay -->
+    </div><!-- ./info -->
+
+    <div class="team pd-y" id="team">
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">our team</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+        
+        <div class="container">
+            <div class="team-content">
+
+                <div class="team-item text-C ttb-effect bg-f4">
+                    <div class="team-img">
+                        <img src="./images/team/team1.jpg" alt="">
+                        <div class="team-overlay">
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-facebook"></i></a>
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-google-plus"></i></a>
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-twitter"></i></a>
+                        </div><!-- ./team-overlay -->
+                    </div><!-- ./team-img-->
+                    <div class="team-info">
+                        <h3 class="team-item-title capital">john doe</h3>
+                        <span class="team-item-text upper">web designer</span>
+                    </div><!-- ./team-info -->    
+                </div><!-- ./team-item -->
+
+                <div class="team-item text-C mg ttb-effect bg-f4">
+                    <div class="team-img">
+                        <img src="./images/team/team2.jpg" alt="">
+                        <div class="team-overlay">
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-facebook"></i></a>
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-google-plus"></i></a>
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-twitter"></i></a>
+                        </div><!-- ./team-overlay -->
+                    </div><!-- ./team-img -->
+                    <div class="team-info">
+                        <h3 class="team-item-title capital">john doe</h3>
+                        <span class="team-item-text upper">web designer</span>
+                    </div><!-- ./team-info -->
+                    
+                </div><!-- ./team-item -->
+
+                <div class="team-item text-C ttb-effect bg-f4">
+                    <div class="team-img">
+                        <img src="./images/team/team3.jpg" alt="">
+                        <div class="team-overlay">
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-facebook"></i></a>
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-google-plus"></i></a>
+                            <a href="#"><i class="ds-block icon hover-opacity fa fa-twitter"></i></a>
+                        </div><!-- ./team-overlay -->
+                    </div><!-- ./team-img -->
+                    <div class="team-info">
+                        <h3 class="team-item-title capital">john doe</h3>
+                        <span class="team-item-text upper">web designer</span>
+                    </div><!-- ./team-info -->
+
+                </div><!-- ./team-item -->
+            </div><!-- ./team-content -->
+        </div><!-- ./container -->
+    </div><!-- ./team -->
+
+    <div class="blog pd-y bg-f4" id="blog">
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">recents news</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+
+        <div class="container">
+            <div class="blog-content">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="./images/blog/blog1.jpg" alt="">
+                    </div><!-- ./blog-img -->
+                    <div class="blog-item-content">
+                        <ul class="blog-list">
+                            <li class="ds-inline-block"><i class="icon fa fa-user"></i> John doe</li>
+                            <li class="ds-inline-block"><i class="icon fa fa-clock-o"></i> 18 Oct</li>
+                            <li class="ds-inline-block"><i class="icon fa fa-comments"></i> 57</li>
+                        </ul><!-- ./blog-list -->
+                        <h3 class="blog-item-title">Molestie at elementum eu facilisis sed odio</h3>
+                        <p class="blog-item-desc mg-b-14">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec</p>
+                        <a href="#" class="blog-item-link capital">read more</a>
+                    </div><!-- ./blog-item-content -->
+                </div><!-- ./blog-item -->
+
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="./images/blog/blog2.jpg" alt="">
+                    </div><!-- ./blog-img -->
+                    <div class="blog-item-content">
+                        <ul class="blog-list">
+                            <li class="ds-inline-block"><i class="icon fa fa-user"></i> John doe</li>
+                            <li class="ds-inline-block"><i class="icon fa fa-clock-o"></i> 18 Oct</li>
+                            <li class="ds-inline-block"><i class="icon fa fa-comments"></i> 57</li>
+                        </ul><!-- ./blog-list -->
+                        <h3 class="blog-item-title">Molestie at elementum eu facilisis sed odio</h3>
+                        <p class="blog-item-desc mg-b-14">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec</p>
+                        <a href="#" class="blog-item-link capital">read more</a>
+                    </div><!-- ./blog-item-content -->
+                </div><!-- ./blog-item -->
+
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="./images/blog/blog3.jpg" alt="">
+                    </div><!-- ./blog-img -->
+                    <div class="blog-item-content">
+                        <ul class="blog-list">
+                            <li class="ds-inline-block"><i class="icon fa fa-user"></i> John doe</li>
+                            <li class="ds-inline-block"><i class="icon fa fa-clock-o"></i> 18 Oct</li>
+                            <li class="ds-inline-block"><i class="icon fa fa-comments"></i> 57</li>
+                        </ul><!-- ./blog-list -->
+                        <h3 class="blog-item-title">Molestie at elementum eu facilisis sed odio</h3>
+                        <p class="blog-item-desc mg-b-14">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec</p>
+                        <a href="#" class="blog-item-link capital">read more</a>
+                    </div><!-- ./blog-item-content -->
+                </div><!-- ./blog-item -->
+            </div><!-- ./blog-content -->
+        </div><!-- ./container -->
+    </div><!-- ./blog -->
+
+    <div class="contact pd-y" id="contact">
+        <div class="section-header text-C">
+            <h2 class="section-title capital mg-b-14">get in touch</h2><!-- ./section-title -->
+            <span class="line ds-block"></span><!-- ./line -->
+        </div><!-- ./section-header  -->
+
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-item text-C">
+                    <i class="icon fa fa-phone mg-b-20"></i>
+                    <h3 class="contact-item-title mg-b-20">phone</h3>
+                    <p class="contact-item-desc">512-421-3940</p>
+                </div><!-- ./contact-item -->
+
+                <div class="contact-item text-C">
+                    <i class="icon fa fa-envelope mg-b-20"></i>
+                    <h3 class="contact-item-title mg-b-20">email</h3>
+                    <p class="contact-item-desc">email@support.com</p>
+                </div><!-- ./contact-item -->
+
+                <div class="contact-item text-C">
+                    <i class="icon fa fa-map-marker mg-b-20"></i>
+                    <h3 class="contact-item-title mg-b-20">Address</h3>
+                    <p class="contact-item-desc">1739 Bubby Drive</p>
+                </div><!-- ./contact-item -->
+            </div><!-- ./contact-content -->
+
+                <form action="#" class="contact-form text-C">
+                        <input type="text" name="contact" class=" mg-b-20" placeholder="Name" >
+                        <input type="email" name="contact" class=" mg-b-20" placeholder="Email">
+                        <input type="text" name="contact" placeholder="Subject">
+                    <div class="text-area">
+                        <textarea name="contact" placeholder="Message"></textarea>
+                    </div><!-- ./text-area -->
+                    <button class="main-btn hover-opacity">Send Message</button>
+                </form>
+        </div><!-- ./container -->
+    </div><!-- ./contact -->
+
+    <!-- Footer -->
+    <div class="footer text-C">
+        <div class="container">
+                <img src="./images/logo/logo-alt.png" class="footer-logo mg-b-40" draggable="false">
+            <ul class="footer-contact mg-b-20">
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-facebook"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-twitter"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-google-plus"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-instagram"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-linkedin"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-youtube"></i></a></li>
+            </ul><!-- ./footer-contact -->
+
+                <p class="copyright upper">copyright &copy; 2026. all rights reserved. designed by 
+                    <a href="https://www.linkedin.com/in/mohamed-gomaa2005/" target="_blank"><br>mohamed gomaa <i class="fa fa-linkedin"></i></a>
+                </p>
+        </div><!-- ./container -->
+    </div><!-- ./footer -->
+
+    </body>
+</html>

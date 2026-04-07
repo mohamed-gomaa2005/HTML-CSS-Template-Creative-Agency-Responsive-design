@@ -1,0 +1,63 @@
+.upper {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.text-C {
+    text-align: center;
+}
+
+.ds-inline-block {
+    display: inline-block;
+}
+
+.ds-block {
+    display: block;
+}
+
+.ds-inline {
+    display: inline;
+} 
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.overflow-hidden {
+    overflow: hidden; /* to solve the float problem */
+}
+
+.mg-b-14 {
+    margin-bottom: 14px;
+}
+
+.mg-b-20 {
+    margin-bottom: 20px;
+}
+
+.mg-b-40 {
+    margin-bottom: 40px;
+}
+
+.mg-b-5 {
+    margin-bottom: 5px;
+}
+
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+
+.bg-f4 {
+    background-color: #f4f4f4;
+}
+
+.bg-fa {
+    background-color: #fafafa; 
+}

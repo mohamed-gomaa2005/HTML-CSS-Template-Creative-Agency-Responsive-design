@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Template ( BLog )</title>
+    <!-- fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Blog-page.css">
+    <link rel="stylesheet" href="./css/blog-header.css">
+    <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/base-refactor.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+</head>
+<body>
+        <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="link-logo">
+                    <img src="./images/logo/logo.png" alt="Logo Image" draggable="false">
+                    </a><!-- ./link-logo -->
+                </div><!-- ./logo -->
+
+            <ul class="nav">
+                <li class="ds-inline-block"><a href="./index.html" class="ds-block">Home</a></li>
+                <li class="ds-inline-block"><a href="./index.html#about" class="ds-block">About</a></li>
+                <li class="ds-inline-block"><a href="./index.html#portfolio" class="ds-block">Portfolio</a></li>
+                <li class="ds-inline-block"><a href="./index.html#services" class="ds-block">Services</a></li>
+                <li class="ds-inline-block"><a href=" ./index.html#price" class="ds-block">Prices</a></li>
+                <li class="ds-inline-block"><a href="./index.html#team" class="ds-block">Team</a></li>
+                <li class=" ds-inline-block dropdown">
+                    <a href="./index.html#blog" class="ds-block">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./blog.html" class="blog-post">blog post</a></li>
+                    </ul><!-- ./dropdown-menu -->
+                </li><!--./ds-inline-block ./dropdown -->
+                <li class="ds-inline-block"><a href="./index.html#contact" class="ds-block">Contact</a></li>
+            </ul><!-- ./nav -->
+
+            <div class="hover-nav">
+                <div class="responsive-nav" media="max-width:767px;">
+                    <span></span>
+                </div><!-- ./responsive-nav -->
+                
+                <ul class="responsive-ul">
+                <li><a href="./index.html" class="ds-block">Home</a></li>
+                <li><a href="./index.html#about" class="ds-block">About</a></li>
+                <li><a href="./index.html#portfolio" class="ds-block">Portfolio</a></li>
+                <li><a href="./index.html#services" class="ds-block">Services</a></li>
+                <li><a href="./index.html#price" class="ds-block">Prices</a></li>
+                <li><a href="./index.html#team" class="ds-block">Team</a></li>
+                
+                    <li class="has-dropdown">
+                        <a href="./index.html#blog" class=" active ds-block">Blog</a>
+                        <ul class="dropdown">
+                            <li><a href="./blog.html" class="blog-post ds-block">blog post</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="./index.html#contact" class="ds-block">Contact</a></li>
+                </ul><!-- ./responsive-ul -->
+
+        </div><!-- ./hover-nav -->
+
+            </div><!-- ./header-content -->
+        </div> <!-- ./container -->
+    </div><!-- ./header -->
+
+    <div class="blog-header bg-fa">
+        <div class="container">
+            <h2 class="blog-header-title capital">
+                blog page
+            </h2><!-- ./blog-header-title -->
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item capital ds-inline"><a href="./index.html#Home">home</a></li>
+                <li class="breadcrumb-item capital ds-inline"><a href="./index.html#blog">blog</a></li>
+                <li class="breadcrumb-item capital ds-inline">single post</li>
+            </ul><!-- ./breadcrumb -->
+        </div><!-- ./container -->
+    </div><!-- ./blog-header -->
+
+
+    <div class="main">
+        <div class="container">
+            <div class="main-content pd-y">
+                <div class="blog">
+                    <div class="blog-image">
+                        <img src="./images/blog/blog1.jpg" alt="blog">
+                    </div><!-- ./blog-image -->
+
+                    <div class="blog-post-content">
+                        <ul class="blog-info-icons">
+                            <li class="ds-inline-block"><i class="fa fa-user"></i> John doe</li>
+                            <li class="ds-inline-block"><i class="fa fa-clock-o"></i> 18 Oct</li>
+                            <li class="ds-inline-block"><i class="fa fa-comments"></i> 57</li>
+                        </ul><!-- ./blog-info-icons -->
+
+                        <h3 class="blog-content-title mg-b-20">
+                            Morbi mattis felis at nunc. Duis viverra
+                        </h3><!-- ./blog-content-title -->
+                        <p class="blog-content-desc mg-b-10">
+                            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        </p><!-- ./blog-content-desc -->
+                    </div><!-- ./blog-content -->
+
+                    <div class="blog-tags">
+                        <h5 class="blog-tags-title capital ds-inline-block">tags :</h5>
+                        <a href="#" class="bg-f4 capital ds-inline-block"><i class="fa fa-tag"></i>web</a>
+                        <a href="#" class="bg-f4 capital ds-inline-block"><i class="fa fa-tag"></i>design</a>
+                        <a href="#" class="bg-f4 capital ds-inline-block"><i class="fa fa-tag"></i>marketing</a>
+                        <a href="#" class="bg-f4 capital ds-inline-block"><i class="fa fa-tag"></i>development</a>
+                        <a href="#" class="bg-f4 capital ds-inline-block"><i class="fa fa-tag"></i>branding</a>
+                        <a href="#" class="bg-f4 capital ds-inline-block"><i class="fa fa-tag"></i>photography</a>
+                    </div><!-- ./blog-tags -->
+
+                    <div class="blog-author">
+                        <div class="blog-author-content overflow-hidden">
+                            <div class="blog-author-image">
+                                <img src="./images/team/team1.jpg" alt="">
+                            </div><!-- ./blog-author-image -->
+
+                            <div class="blog-author-header">
+                                <h3 class="blog-author-title upper">joe doe</h3>
+                                <ul class="author-media">
+                                    <li class="ds-inline-block"><a href="#" class="ds-block"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="ds-inline-block"><a href="#" class="ds-block"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="ds-inline-block"><a href="#" class="ds-block"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="ds-inline-block"><a href="#" class="ds-block"><i class="fa fa-instagram"></i></a></li>
+                                </ul><!-- ./author-media -->
+                            </div><!--./blog-author-header -->
+                            <div class="blog-author-desc float-right">
+                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                            </div><!-- ./blog-author-desc -->
+
+                        </div><!-- ./blog-author-content -->
+                    </div><!-- ./blog-author -->
+
+                    <div class="comments">
+                        <div class="section-title">
+                            <h2 class="title capital mg-b-10">(13) comments</h2>
+                            <span class="title-line ds-block"></span>
+                        </div><!-- ./comment-section-title -->
+
+
+                        <div class="comments-section-content">
+                            <div class="media overflow-hidden">
+
+                                <div class="media-image float-left">
+                                    <img src="./images/person/perso2.jpg" alt="">
+                                </div><!-- ./media-image -->
+
+                                <div class="media-heading mg-b-10">
+                                    <h3 class="ds-inline-block upper">joe doe</h3>
+                                    <span class=" media-time ds-inline-block upper">2 min ago</span>
+                                    <a href="#" class="media-replay ds-inline-block float-right upper">reply<i class="fa fa-reply"></i></a>
+                                </div><!-- ./media-heading -->
+
+                                <div class="media-desc">
+                                    <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                </div><!-- ./media-desc -->
+                            </div><!-- ./media -->
+
+                            <div class="media overflow-hidden">
+
+                                <div class="media-image float-left">
+                                    <img src="./images/person/perso1.jpg" alt="">
+                                </div><!-- ./media-image -->
+
+                                <div class="media-heading mg-b-10">
+                                    <h3 class="ds-inline-block upper">joe doe</h3>
+                                    <span class=" media-time ds-inline-block upper">2 min ago</span>
+                                    <a href="#" class="media-replay ds-inline-block float-right upper">reply<i class="fa fa-reply"></i></a>
+                                </div><!-- ./media-heading -->
+
+                                <div class="media-desc mg-b-20">
+                                    <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                </div><!-- ./media-desc -->
+
+                                <div class="media inside1 overflow-hidden bg-f4">
+
+                                <div class="media-image float-left">
+                                    <img src="./images/person/perso2.jpg" alt="">
+                                </div><!-- ./media-image -->
+
+                                <div class="media-heading mg-b-10">
+                                    <h3 class="ds-inline-block upper">joe doe</h3>
+                                    <span class=" media-time ds-inline-block upper">2 min ago</span>
+                                    <a href="#" class="media-replay ds-inline-block float-right upper">reply<i class="fa fa-reply"></i></a>
+                                </div><!-- ./media-heading -->
+
+                                <div class="media-desc">
+                                    <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                </div><!-- ./media-desc -->
+
+                                
+                            </div><!-- ./media inside-->
+
+                                <div class="media inside overflow-hidden bg-f4">
+
+                                <div class="media-image float-left">
+                                    <img src="./images/person/perso2.jpg" alt="">
+                                </div><!-- ./media-image -->
+
+                                <div class="media-heading mg-b-10">
+                                    <h3 class="ds-inline-block upper">joe doe</h3>
+                                    <span class=" media-time ds-inline-block upper">2 min ago</span>
+                                    <a href="#" class="media-replay ds-inline-block float-right upper">reply<i class="fa fa-reply"></i></a>
+                                </div><!-- ./media-heading -->
+
+                                <div class="media-desc">
+                                    <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                </div><!-- ./media-desc -->
+
+                                
+                            </div><!-- ./media inside-->
+
+
+                            </div><!-- ./media -->
+
+                            <div class="media overflow-hidden">
+
+                                <div class="media-heading mg-b-10">
+                                    <h3 class="ds-inline-block upper">joe doe</h3>
+                                    <span class=" media-time ds-inline-block upper">2 min ago</span>
+                                    <a href="#" class="media-replay ds-inline-block float-right upper">reply<i class="fa fa-reply"></i></a>
+                                </div><!-- ./media-heading -->
+
+                                <div class="media-desc">
+                                    <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                </div><!-- ./media-desc -->
+                            </div><!-- ./media -->
+
+                        </div><!-- ./comment-section-content -->
+                    </div><!-- ./comments -->
+
+
+                    <div class="reply-form">
+                        <div class="replay-title">
+                            <h2 class="title  mg-b-10">Leave a reply</h2>
+                            <span class="title-line ds-block"></span>
+                        </div><!-- ./section-title -->
+
+                        <form action="#">
+                                <input type="text" name="reply" placeholder="Name" class=" ds-inline-block">
+                                <input type="email" name="reply" placeholder="Email" class=" ds-inline-block">
+                            <textarea name="reply" placeholder="Add Your Commment"></textarea>
+
+                            <button class="capital main-btn">submit</button>
+
+                        </form>
+                    </div><!-- ./reply-form -->
+                </div><!-- ./blog -->
+
+
+
+            <div class="side">
+
+            <div class="widget-search">
+                <input type="search" placeholder="search" class="search bg-f4">
+                <a class="btn-search bg-f4 text-C"><i class="fa fa-search"></i></a>
+            </div><!-- ./widget-search -->
+
+            <div class="side-title mg-b-20">
+                <h3 class="category-side-title upper">category</h3>
+            </div><!-- side-title -->
+
+            <div class="widget-category">
+                    <a href="#" class="ds-block capital top-border">web design <span class="float-right">(7)</span></a>
+                    <a href="#"class="ds-block capital ">marketing <span class="float-right">(142)</span></a>
+                    <a href="#"class="ds-block capital ">web development<span class="float-right">(74)</span></a>
+                    <a href="#"class="ds-block capital ">branding<span class="float-right">(60)</span></a>
+                    <a href="#"class="ds-block capital ">photography<span class="float-right">(5)</span></a>
+            </div><!-- ./widget-category -->
+
+            <div class="side-title mg-b-20">
+                <h3 class="category-side-title upper">populare posts</h3>
+            </div>
+
+            <div class="widget-posts">
+                <div class="widget-single-post">
+
+                    <a href="#" class="link-single-post ds-block">
+                        <img src="./images/blog/blog1.jpg" alt="" class="widget-single-photo">
+                        <span class="title-single-post">Blog title goes here</span>
+                    </a>
+                        <ul class="blog-meta">
+                            <li class="date">0ct 18,2017</li>
+                        </ul><!-- ./blog-meta -->
+
+                </div><!-- ./widget-single-post -->
+
+                <div class="widget-single-post">
+
+                    <a href="#" class="link-single-post ds-block">
+                        <img src="./images/blog/blog2.jpg" alt="" class="widget-single-photo">
+                        <span class="title-single-post">Blog title goes here</span>
+                    </a>
+                        <ul class="blog-meta">
+                            <li class="date">0ct 18,2017</li>
+                        </ul><!-- ./blog-meta -->
+
+                </div><!-- ./widget-single-post -->
+                    
+                <div class="widget-single-post">
+
+                    <a href="#" class="link-single-post ds-block">
+                        <img src="./images/blog/blog3.jpg" alt="" class="widget-single-photo">
+                        <span class="title-single-post">Blog title goes here</span>
+                    </a>
+                        <ul class="blog-meta">
+                            <li class="date">0ct 18,2017</li>
+                        </ul><!-- ./blog-meta -->
+                    
+                </div><!-- ./widget-single-post -->
+            </div><!-- ./widget-posts -->
+
+
+            <div class="side-title mg-b-20">
+                <h3 class="category-side-title upper">tags</h3>
+            </div>
+
+
+            <div class="widget-tags">
+                <a href="#" class="ds-inline-block bg-f4">web</a>
+                <a href="#" class="ds-inline-block bg-f4">design</a>
+                <a href="#" class="ds-inline-block bg-f4">graphic</a>
+                <a href="#" class="ds-inline-block bg-f4">marketing</a>
+                <a href="#" class="ds-inline-block bg-f4">development</a>
+                <a href="#" class="ds-inline-block bg-f4">branding</a>
+                <a href="#" class="ds-inline-block bg-f4">photography</a>
+            </div><!-- ./widget-tags -->
+
+            </div><!-- ./side -->
+
+            
+        </div><!-- ./main-content -->
+    </div><!-- ./container -->
+</div><!-- ./main -->
+
+
+    <!-- Footer -->
+    <div class="footer text-C">
+        <div class="container">
+                <img src="./images/logo/logo-alt.png" class="footer-logo mg-b-40" draggable="false">
+            <ul class="footer-contact mg-b-20">
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-facebook"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-twitter"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-google-plus"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-instagram"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-linkedin"></i></a></li>
+                <li class="ds-inline-block mg-b-14"><a href="#" class="ds-block hover-opacity"><i class="icon fa fa-youtube"></i></a></li>
+            </ul><!-- ./footer-contact -->
+
+                <p class="copyright upper">copyright &copy; 2025. all rights reserved. designed by 
+                    <a href="https://www.linkedin.com/in/mohamed-gomaa2005/" target="_blank"><br>mohamed gomaa <i class="fa fa-linkedin"></i></a>
+                </p><!-- ./copyright -->
+        </div><!-- ./container -->
+    </div><!-- ./footer -->
+
+
+
+
+
+</body>
+</html>

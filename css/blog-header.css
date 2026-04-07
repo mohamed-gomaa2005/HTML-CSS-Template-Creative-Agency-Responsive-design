@@ -1,0 +1,88 @@
+/* Blog Header Section */
+
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+
+.header .logo{
+    width: 39%;
+}
+
+.header .nav {
+    width: 61%;
+    margin-top: 10px;
+}
+
+.header .logo img {
+    width: 90px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.header .nav > li {
+    padding: 1px 15px;
+    position: relative;
+}
+
+.header .nav > li > a {
+    color: var(--black-color);
+    padding: 15px 0;
+    font-size: 14px;
+ /* ds-block a in the li is block */
+}
+
+/* hover effect 1 ( left to right ) of the header */
+
+.header .nav > li > a::after ,
+.header .nav > li > a::after ,
+.header .nav > li > a:hover:after { 
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: var(--main-color);
+    margin-top: 1px;
+}
+
+.header .nav > li > a.active::after {
+    width: 100%;
+}
+.header .nav > li > a:not(.active)::after {
+    width: 0%;
+    transition: width 0.2s;
+}
+.header .nav > li > a:not(.active):hover:after {
+    width: 100%;
+}
+
+/* Dropdown */
+
+.dropdown{
+    position: relative;
+}
+
+ul.dropdown-menu {
+    position: absolute;
+    background: var(--main-color);
+    width: 200px;
+    padding: 10px;
+    height: 40px;
+    left: -100%;
+    top: 150%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s , top 0.2s , visibility 0.2s;
+}
+
+.dropdown:hover .dropdown-menu { /* When i hover on the dropdown add that action to dropdown-menu */
+    opacity: 1;
+    top: 100%;
+    visibility: visible; 
+}
+
+.dropdown .dropdown-menu .blog-post {
+    color: var(--white-color);
+}
